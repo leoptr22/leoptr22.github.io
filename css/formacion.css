@@ -1,0 +1,94 @@
+.lugar{
+    text-align:center;
+    font-size: 2rem;
+    color: rgb(112, 106, 106);
+    display: block;
+    border-radius: 100% ;
+    padding: 3rem;
+
+
+}
+
+
+
+.cursos{
+text-align:center;
+font-size: 2rem;
+color: rgb(112, 106, 106);
+display: block;
+
+}
+
+.lugar1{
+    font-size: 2rem;
+    color: rgb(112, 106, 106);
+    display: flex;
+    border-radius: 80% ;
+    width: 100px;
+    padding: 3rem;
+    align-items: center;
+    margin-right: 10rem;
+    width: 150px;
+
+}
+
+.curso{
+    text-align: center;
+padding: 30px;
+font-size: 4rem;
+color: black;
+background-color: lightgoldenrodyellow;
+
+overflow: hidden;
+}
+
+.lugar2{
+    text-align:justify;
+    font-size: 2rem;
+    color: rgb(112, 106, 106);
+    display: flex;
+    border-radius: 100% ;
+    width: 150px;
+    padding-top: 5rem;
+    padding: 3rem;
+    margin-right: 10rem;
+
+}
+
+.lugar3{
+    color: rgb(112, 106, 106);
+    display: block;
+    border-radius: 100% ;
+    width: 150px;
+    padding-top: 5rem;
+    padding: 3rem;
+
+}
+.imagenes{
+    display: flex;
+    
+}
+
+@media  screen and (min-width: 300px) and (max-width: 700px) {
+    .curso  {
+    font-size:2rem;
+    }
+    }
+
+
+
+    @media  screen and (min-width: 300px) and (max-width: 700px) {
+        .cursos  {
+            background-color: rgb(45, 90, 128);
+            color: aliceblue;
+        }
+        }
+
+        @media  screen and (min-width: 300px) and (max-width: 700px) {
+            .imagenes {
+                background-color: rgb(45, 90, 128);
+                color: aliceblue;  
+            padding: 20px;     }
+        
+            
+            }

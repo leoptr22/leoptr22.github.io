@@ -1,0 +1,84 @@
+.main{display: block;}
+
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.pielredes{
+    width: 100%;
+display: flex;
+
+margin: auto;
+    border-radius: 80%;
+    width: 100px;
+padding: 2rem;
+    
+    
+}
+
+.pielredes:hover{
+border: 3px solid darkgrey;
+
+
+}
+
+
+.piel{
+
+    width: 100%;
+display: flex;
+
+margin: auto;
+    border-radius: 80%;
+    width: 100px;
+padding: 2rem;
+    
+    
+}
+
+
+.destacados{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.piel:hover{
+
+    border: 5px solid green;
+}
+
+@media  screen and (min-width: 300px) and (max-width: 700px) {
+    .piel {
+    padding: 4px;
+    width: 80px;        }
+
+    
+    }
+
+    @media  screen and (min-width: 300px) and (max-width: 700px) {
+        .pielredes {
+            padding: 4px;
+        width: 80px;        }
+        }
+
+        @media  screen and (min-width: 300px) and (max-width: 700px) {
+            .skill__redes  {
+                background-color: rgb(45, 90, 128);
+                color: aliceblue;
+            }
+            }
+            @media  screen and (min-width: 300px) and (max-width: 700px) {
+                .skill  {
+                    background-color: rgb(45, 90, 128);
+                    color: aliceblue;
+                }
+                }
+
+              #skill1{
+                background-color: lightgoldenrodyellow;
+              }

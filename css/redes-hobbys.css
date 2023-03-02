@@ -1,0 +1,37 @@
+.redes{
+color: black;
+text-align: center;
+padding: 30px;
+font-size: 4rem;
+background-color: lightgoldenrodyellow;
+}
+
+.skill__redes{
+
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.ratos__libres{
+text-align: center;
+font-size: 2rem;
+color: darkgrey;
+padding: 1rem;
+
+
+}
+
+@media  screen and (min-width: 300px) and (max-width: 700px) {
+    .ratos__libres {
+        background-color: rgb(45, 90, 128);
+        color: aliceblue;       }
+
+    
+    }
+    @media  screen and (min-width: 300px) and (max-width: 700px) {
+        .redes {
+            font-size: 2rem;
+        
+        }}
